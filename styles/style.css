@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.p1{
+    position: relative;
+
+}
+
+.p1::after{
+    content: "\1F645";
+    font-size: 60px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.p2{
+    position: relative;
+
+}
+
+.p2::after{
+    content: "\1F646";
+    font-size: 60px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mb{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button {
+    width: 190px;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: #f4f811;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #bfc215;
+  }
